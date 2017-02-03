@@ -1,0 +1,6 @@
+[submodule "imageLoaderLibrary"]
+	path = imageLoaderLibrary
+	url = https://niyueming@github.com/niyueming/imageLoaderLibrary.git
+[submodule "frescoImageLoaderLibrary"]
+	path = frescoImageLoaderLibrary
+	url = https://niyueming@github.com/niyueming/frescoImageLoaderLibrary.git
