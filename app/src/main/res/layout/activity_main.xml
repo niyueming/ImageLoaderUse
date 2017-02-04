@@ -10,19 +10,101 @@
   ~
   -->
 
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="net.nym.imageloaderuse.MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5dp"
+        android:orientation="vertical"
+        >
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!" />
-</RelativeLayout>
+        <com.facebook.drawee.view.SimpleDraweeView
+            xmlns:fresco="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/image1"
+            android:layout_width="373dp"
+            android:layout_height="160dp"
+            fresco:placeholderImageScaleType="fitCenter"
+            fresco:retryImageScaleType="center"
+            fresco:failureImageScaleType="fitCenter"
+            fresco:progressBarImageScaleType="centerInside"
+            />
+        <com.facebook.drawee.view.SimpleDraweeView
+            xmlns:fresco="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/image2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            fresco:placeholderImageScaleType="fitCenter"
+            fresco:retryImageScaleType="center"
+            fresco:failureImageScaleType="fitCenter"
+            fresco:progressBarImageScaleType="centerInside"
+            />
+        <com.facebook.drawee.view.SimpleDraweeView
+            xmlns:fresco="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/image3"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            fresco:placeholderImageScaleType="fitCenter"
+            fresco:retryImageScaleType="center"
+            fresco:failureImageScaleType="fitCenter"
+            fresco:progressBarImageScaleType="centerInside"
+            />
+        <com.facebook.drawee.view.SimpleDraweeView
+            xmlns:fresco="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/image4"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            fresco:placeholderImageScaleType="fitCenter"
+            fresco:retryImageScaleType="center"
+            fresco:failureImageScaleType="fitCenter"
+            fresco:progressBarImageScaleType="centerInside"
+            />
+        <com.facebook.drawee.view.SimpleDraweeView
+            xmlns:fresco="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/image5"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            fresco:placeholderImageScaleType="fitCenter"
+            fresco:retryImageScaleType="center"
+            fresco:failureImageScaleType="fitCenter"
+            fresco:progressBarImageScaleType="centerInside"
+            />
+        <com.facebook.drawee.view.SimpleDraweeView
+            xmlns:fresco="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/image6"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            fresco:placeholderImageScaleType="fitCenter"
+            fresco:retryImageScaleType="center"
+            fresco:failureImageScaleType="fitCenter"
+            fresco:progressBarImageScaleType="centerInside"
+            />
+        <com.facebook.drawee.view.SimpleDraweeView
+            xmlns:fresco="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/image7"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            fresco:placeholderImageScaleType="fitCenter"
+            fresco:retryImageScaleType="center"
+            fresco:failureImageScaleType="fitCenter"
+            fresco:progressBarImageScaleType="centerInside"
+            />
+        <com.facebook.drawee.view.SimpleDraweeView
+            xmlns:fresco="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/image8"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            fresco:placeholderImageScaleType="fitCenter"
+            fresco:retryImageScaleType="center"
+            fresco:failureImageScaleType="fitCenter"
+            fresco:progressBarImageScaleType="centerInside"
+            />
+
+    </LinearLayout>
+
+
+</android.support.v4.widget.NestedScrollView>
